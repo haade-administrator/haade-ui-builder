@@ -5,7 +5,7 @@ import type { GridStackNode } from 'gridstack';
 import 'gridstack/dist/gridstack.min.css';
 import WidgetPalette from './WidgetPalette';
 import WidgetConfigModal from './WidgetConfigModal';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 import './App.css';
 
 interface WidgetData {
@@ -127,6 +127,8 @@ const Dashboard: React.FC = () => {
 };
 
 export default Dashboard;
+
+
 
 
 
